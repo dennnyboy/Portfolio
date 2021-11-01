@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #857ab6;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #9178a2;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(0, 54, 90);
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+section {
+  padding: 60px;
+}
+
+/*containers*/
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+/* Hero Style Start */
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.profile {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* about me section */
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  line-height: 1.7;
+  color:rgb(0, 54, 90);
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.mywork {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #857ab6;
+  margin-bottom: 25px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+/*lines under text */
+.primary-border {
+  border-color: #d8c023;
+}
+
+.secondary-border {
+  border-color: #d8c023;
+}
+
+/* Contact section */
+.contact {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contact ul li {
+  display: inline-flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 50;
+  padding-right: 50;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
